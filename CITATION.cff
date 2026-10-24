@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, theoretical model, or dataset in your research, please cite both the software repository and the foundational preprint."
+title: "High-Throughput Combinatorial Screening Pipeline for Refractory Bulk Metallic Glasses"
+abstract: >-
+  An open-source Python analytical engine and screening pipeline coupling
+  first-principles screened nuclear ion affinities (A_i), Rose Universal Binding
+  Energy Relations (UBER), Voigt-Reuss-Hill continuum homogenization, and the
+  Johnson-Samwer Cooperative Shear Model (CSM) to predict macroscopic elastic moduli
+  and glass transition temperatures (T_g) for extreme-environment fusion Capillary
+  Porous Systems (CPS).
+authors:
+  - family-names: Minus
+    given-names: Matthew B.
+    orcid: "https://orcid.org/0000-0000-0000-0000" # Replace with your ORCID if available
+    affiliation: "Department of Chemistry, Prairie View A&M University, Prairie View, Texas 77446, USA"
+    email: maminus@pvamu.edu
+version: 1.0.0
+date-released: "2026-10-24"
+license: Apache-2.0
+repository-code: "https://github.com/maminus/cps-refractory-screening"
+url: "https://maminus.github.io/cps-refractory-screening/"
+keywords:
+  - bulk metallic glasses
+  - refractory alloys
+  - nuclear fusion
+  - capillary porous systems
+  - continuum mechanics
+  - materials screening
+  - high-throughput materials discovery
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Minus
+      given-names: Matthew B.
+      affiliation: "Prairie View A&M University"
+  title: "High-Throughput Combinatorial Screening of Refractory Amorphous Alloys for Fusion Capillary Systems via a Calibrated First-Principles Continuum-Thermodynamic Model"
+  journal: "ChemRxiv"
+  year: 2026
+  month: 10
+  doi: "10.26434/chemrxiv.15010896/v1"
+  url: "https://doi.org/10.26434/chemrxiv.15010896/v1"
+  publisher: "American Chemical Society (ACS)"

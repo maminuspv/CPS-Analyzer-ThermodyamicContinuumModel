@@ -1,0 +1,436 @@
+% =============================================================================
+% 1. THERMODYNAMICS & CHEMICAL MIXING ENTHALPY
+% =============================================================================
+
+@book{Miedema1988,
+  title     = {Cohesion in Metals: Transition Metal Alloys},
+  author    = {Miedema, A. R. and de Ch{\^{a}}tel, P. F. and de Boer, F. R.},
+  series    = {Cohesion and Structure},
+  volume    = {1},
+  publisher = {North-Holland Physics Publishing},
+  address   = {Amsterdam},
+  year      = {1988},
+  isbn      = {978-0-444-87098-8}
+}
+
+@article{Takeuchi2005,
+  title   = {Classification of Bulk Metallic Glasses by Atomic Size Difference, Heat of Mixing and Period of Constituent Elements and Its Application to Characterization of the Main Alloying Component},
+  author  = {Takeuchi, Akira and Inoue, Akihisa},
+  journal = {Materials Transactions},
+  volume  = {46},
+  number  = {12},
+  pages   = {2817--2829},
+  year    = {2005},
+  doi     = {10.2320/matertrans.46.2817}
+}
+@article{WignerSeitz1933,
+  title   = {On the Constitution of Metallic Sodium},
+  author  = {Wigner, E. and Seitz, F.},
+  journal = {Physical Review},
+  volume  = {43},
+  number  = {10},
+  pages   = {804--810},
+  year    = {1933},
+  doi     = {10.1103/PhysRev.43.804}
+}
+@article{WignerSeitz1934,
+  title   = {On the Constitution of Metallic Sodium. {II}},
+  author  = {Wigner, E. and Seitz, F.},
+  journal = {Physical Review},
+  volume  = {46},
+  number  = {6},
+  pages   = {509--524},
+  year    = {1934},
+  doi     = {10.1103/PhysRev.46.509}
+}
+% =============================================================================
+% 2. CONTINUUM ELASTICITY & FIRST-PRINCIPLES BINDING RELATIONS
+% =============================================================================
+
+@article{Rose1984,
+  title   = {Universal Features of the Equation of State of Metals},
+  author  = {Rose, J. H. and Smith, J. R. and Guinea, F. and Ferrante, J.},
+  journal = {Physical Review B},
+  volume  = {29},
+  number  = {6},
+  pages   = {2963--2978},
+  year    = {1984},
+  doi     = {10.1103/PhysRevB.29.2963}
+}
+
+@book{AshcroftMermin,
+  title     = {Solid State Physics},
+  author    = {Ashcroft, Neil W. and Mermin, N. David},
+  publisher = {Holt, Rinehart and Winston},
+  address   = {New York},
+  year      = {1976},
+  isbn      = {978-0-03-083993-1}
+}
+
+@article{Hill1952,
+  title   = {The Elastic Behaviour of a Crystalline Aggregate},
+  author  = {Hill, R.},
+  journal = {Proceedings of the Physical Society. Section A},
+  volume  = {65},
+  number  = {5},
+  pages   = {349--354},
+  year    = {1952},
+  doi     = {10.1088/0370-1298/65/5/307}
+}
+
+@book{Voigt1910,
+  title     = {Lehrbuch der Kristallphysik},
+  author    = {Voigt, Woldemar},
+  publisher = {B. G. Teubner},
+  address   = {Leipzig},
+  year      = {1910}
+}
+
+@article{Reuss1929,
+  title   = {Berechnung der Flie{\ss}grenze von Mischkristallen auf Grund der Plastizit{\"a}tsbedingung f{\"u}r Einkristalle},
+  author  = {Reuss, A.},
+  journal = {Zeitschrift f{\"u}r Angewandte Mathematik und Mechanik},
+  volume  = {9},
+  number  = {1},
+  pages   = {49--58},
+  year    = {1929},
+  doi     = {10.1002/zamm.19290090104}
+}
+
+@article{Wang2004BMG,
+  title   = {Bulk Metallic Glasses},
+  author  = {Wang, W. H. and Dong, C. and Shek, C. H.},
+  journal = {Materials Science and Engineering: R: Reports},
+  volume  = {44},
+  number  = {2--3},
+  pages   = {45--89},
+  year    = {2004},
+  doi     = {10.1016/j.mser.2004.03.001}
+}
+
+@article{Trelewicz2016,
+  title   = {The Hall--Petch Breakdown in Nanocrystalline Metals: A Review},
+  author  = {Trelewicz, J. R. and Schuh, C. A.},
+  journal = {Acta Materialia},
+  volume  = {55},
+  number  = {17},
+  pages   = {5948--5958},
+  year    = {2007},
+  doi     = {10.1016/j.actamat.2007.07.020}
+}
+
+% =============================================================================
+% 3. TOPOLOGICAL STRAIN & GLASS TRANSITION KINETICS
+% =============================================================================
+
+@article{Egami1984,
+  title   = {Atomic Size Effect on the Formability of Metallic Glasses},
+  author  = {Egami, T. and Waseda, Y.},
+  journal = {Journal of Non-Crystalline Solids},
+  volume  = {64},
+  number  = {1--2},
+  pages   = {113--134},
+  year    = {1984},
+  doi     = {10.1016/0022-3093(84)90210-2}
+}
+
+@article{Inoue2000Acta,
+  title   = {Stabilization of Metallic Supercooled Liquid and Bulk Amorphous Alloys},
+  author  = {Inoue, Akihisa},
+  journal = {Acta Materialia},
+  volume  = {48},
+  number  = {1},
+  pages   = {279--306},
+  year    = {2000},
+  doi     = {10.1016/S1359-6454(99)00300-6}
+}
+
+@article{Johnson2005,
+  title   = {A Universal Criterion for Plastic Yielding in Metallic Glasses with a "Cooperative Shear Model"},
+  author  = {Johnson, W. L. and Samwer, K.},
+  journal = {Physical Review Letters},
+  volume  = {95},
+  number  = {19},
+  pages   = {195501},
+  year    = {2005},
+  doi     = {10.1103/PhysRevLett.95.195501}
+}
+
+% =============================================================================
+% 4. FUSION APPLICATIONS & CAPILLARY POROUS SYSTEMS (CPS)
+% =============================================================================
+
+@article{CPS_Review_2020,
+  title   = {Liquid Metal Divertors for Fusion Reactors: Present Status and Future Prospects},
+  author  = {Tabar{\'e}s, F. L.},
+  journal = {Plasma Physics and Controlled Fusion},
+  volume  = {62},
+  number  = {1},
+  pages   = {014002},
+  year    = {2020},
+  doi     = {10.1088/1361-6587/ab51bc}
+}
+
+% =============================================================================
+% 5. EXPERIMENTAL BENCHMARK CALIBRATION DATASET (TABLE I)
+% =============================================================================
+
+@incollection{Davis1978Metglas,
+  title     = {Strength, Ductility and Toughness of Metallic Glasses},
+  author    = {Davis, L. A.},
+  booktitle = {Rapidly Quenched Metals III},
+  editor    = {Cantor, B.},
+  volume    = {2},
+  pages     = {1--21},
+  publisher = {The Metals Society},
+  address   = {London},
+  year      = {1978}
+}
+
+@book{Luborsky1983,
+  title     = {Amorphous Metallic Alloys},
+  editor    = {Luborsky, F. E.},
+  publisher = {Butterworth-Heinemann},
+  address   = {London},
+  year      = {1983},
+  isbn      = {978-0-408-11030-3}
+}
+
+@article{Zhang2007TiBMG,
+  title   = {Formation and Properties of {Ti}-Based Bulk Metallic Glasses with High Strength},
+  author  = {Zhang, H. F. and Wang, A. M. and Li, H. and Ding, B. Z. and Hu, Z. Q.},
+  journal = {Materials Transactions},
+  volume  = {48},
+  number  = {7},
+  pages   = {1626--1630},
+  year    = {2007},
+  doi     = {10.2320/matertrans.MER2007038}
+}
+
+@article{Zhu2008TiCPS,
+  title   = {A New {Ti}-Based Bulk Metallic Glass with High Strength and Good Biocompatibility},
+  author  = {Zhu, S. L. and Wang, X. M. and Qin, F. X. and Inoue, A.},
+  journal = {Intermetallics},
+  volume  = {16},
+  number  = {8},
+  pages   = {1009--1012},
+  year    = {2008},
+  doi     = {10.1016/j.intermet.2008.05.004}
+}
+
+@article{Nishiyama2002PdNiP,
+  title   = {Viscosity and Thermal Stability of Supercooled Liquid in {Pd--Ni--P} Bulk Metallic Glasses},
+  author  = {Nishiyama, N. and Horino, M. and Inoue, A.},
+  journal = {Intermetallics},
+  volume  = {10},
+  number  = {11--12},
+  pages   = {1241--1247},
+  year    = {2002},
+  doi     = {10.1016/S0966-9795(02)00143-8}
+}
+
+@article{Wilde2000PdNiP,
+  title   = {Thermodynamic Properties of {Pd--Ni--P} Alloys in the Undercooled Liquid and Glass States},
+  author  = {Wilde, G. and G{\"o}rler, G. P. and Willnecker, R. and Dietz, G.},
+  journal = {Applied Physics Letters},
+  volume  = {77},
+  number  = {7},
+  pages   = {930--932},
+  year    = {2000},
+  doi     = {10.1063/1.1288595}
+}
+
+@article{Inoue1989AlNiLa,
+  title   = {Aluminum-Based Amorphous Alloys with High Mechanical Strength and Good Ductility},
+  author  = {Inoue, A. and Ohtera, K. and Tsai, A. P. and Masumoto, T.},
+  journal = {Materials Transactions, JIM},
+  volume  = {30},
+  number  = {10},
+  pages   = {722--729},
+  year    = {1989},
+  doi     = {10.2320/matertrans1989.30.722}
+}
+
+@article{YeLu2005AlNiLa,
+  title   = {Glass Formation and Crystallization Kinetics in {Al--Ni--La} Metallic Glasses},
+  author  = {Ye, F. and Lu, K.},
+  journal = {Acta Materialia},
+  volume  = {53},
+  number  = {5},
+  pages   = {1299--1308},
+  year    = {2005},
+  doi     = {10.1016/j.actamat.2004.11.026}
+}
+
+
+
+
+@article{Rose1981PRL,
+  title   = {Universal Binding Energy Curves for Metals and Bimetallic Interfaces},
+  author  = {Rose, J. H. and Ferrante, J. and Smith, J. R.},
+  journal = {Physical Review Letters},
+  volume  = {47},
+  number  = {9},
+  pages   = {675--678},
+  year    = {1981},
+  doi     = {10.1103/PhysRevLett.47.675}
+}
+
+
+@book{Kittel2005,
+  title     = {Introduction to Solid State Physics},
+  author    = {Kittel, Charles},
+  edition   = {8th},
+  publisher = {John Wiley \& Sons},
+  address   = {Hoboken, NJ},
+  year      = {2005},
+  isbn      = {978-0-471-41526-8}
+}
+@article{Ferrante1983PRL,
+  title   = {Diatomic Molecules and Metallic Adhesion, Cohesion, and Chemisorption: A Universal Binding Energy Relation},
+  author  = {Ferrante, J. and Smith, J. R. and Rose, J. H.},
+  journal = {Physical Review Letters},
+  volume  = {50},
+  number  = {18},
+  pages   = {1385--1386},
+  year    = {1983},
+  doi     = {10.1103/PhysRevLett.50.1385}
+}
+
+@book{Moruzzi1978,
+  title     = {Calculated Electronic Properties of Metals},
+  author    = {Moruzzi, V. L. and Janak, J. F. and Williams, A. R.},
+  publisher = {Pergamon Press},
+  address   = {New York},
+  year      = {1978},
+  isbn      = {978-0-08-022705-4}
+}
+
+@book{Love1927,
+  title     = {A Treatise on the Mathematical Theory of Elasticity},
+  author    = {Love, A. E. H.},
+  edition   = {4th},
+  publisher = {Cambridge University Press},
+  address   = {Cambridge},
+  year      = {1927}
+}
+
+@book{LandauLifshitz1986,
+  title     = {Theory of Elasticity},
+  author    = {Landau, L. D. and Lifshitz, E. M.},
+  series    = {Course of Theoretical Physics},
+  volume    = {7},
+  edition   = {3rd},
+  publisher = {Pergamon Press},
+  address   = {Oxford},
+  year      = {1986},
+  isbn      = {978-0-08-033939-9}
+}
+
+@article{Egami1997,
+  title   = {Universal Criterion for Metallic Glass Formation},
+  author  = {Egami, T.},
+  journal = {Materials Science and Engineering: A},
+  volume  = {226--228},
+  pages   = {261--267},
+  year    = {1997},
+  doi     = {10.1016/S0921-5093(97)80041-9}
+}
+
+
+@article{Zhu1997LBFGS,
+  title   = {Algorithm 778: {L-BFGS-B}: Fortran Subroutines for Large-Scale Bound-Constrained Optimization},
+  author  = {Zhu, Ciyou and Byrd, Richard H. and Lu, Peihuang and Nocedal, Jorge},
+  journal = {ACM Transactions on Mathematical Software},
+  volume  = {23},
+  number  = {4},
+  pages   = {550--560},
+  year    = {1997},
+  doi     = {10.1145/279232.279236}
+}
+
+@article{Virtanen2020SciPy,
+  title   = {{{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in Python}},
+  author  = {Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and Haberland, Matt and Reddy, Tyler and Cournapeau, David and Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and Bright, Jonathan and {van der Walt}, St{\'e}fan J. and Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and Kern, Robert and Larson, Eric and Carey, C. J. and Polat, {\.I}lhan and Feng, Yu and Moore, Eric W. and VanderPlas, Jake and Laxalde, Denis and Perktold, Josef and Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and Harris, Charles R. and Archibald, Anne M. and Ribeiro, Ant{\^o}nio H. and Pedregosa, Fabian and {van Mulbregt}, Paul and {SciPy 1.0 Contributors}},
+  journal = {Nature Methods},
+  volume  = {17},
+  number  = {3},
+  pages   = {261--272},
+  year    = {2020},
+  doi     = {10.1038/s41592-019-0686-2}
+}
+
+@article{Miracle2006,
+  title   = {The efficient cluster packing model of metallic glasses},
+  author  = {Miracle, D. B.},
+  journal = {Acta Materialia},
+  volume  = {54},
+  number  = {16},
+  pages   = {4317--4336},
+  year    = {2006},
+  doi     = {10.1016/j.actamat.2006.05.025}
+}
+
+@article{Morgan2016,
+  title   = {Liquid metal divertor components---materials and integration},
+  author  = {Morgan, T. W. and Aussems, D. U. B. and Balden, M. and de Groot, B. and van Eden, G. G. and van de Sanden, M. C. M.},
+  journal = {Physica Scripta},
+  volume  = {T167},
+  pages   = {014029},
+  year    = {2016},
+  doi     = {10.1088/0031-8949/T167/1/014029}
+}
+@article{Argon1979,
+  title   = {Plastic deformation in metallic glasses},
+  author  = {Argon, A. S.},
+  journal = {Acta Metallurgica},
+  volume  = {27},
+  number  = {1},
+  pages   = {47--58},
+  year    = {1979},
+  doi     = {10.1016/0001-6160(79)90055-5}
+}
+
+@article{Spaepen1977,
+  title   = {A microscopic mechanism for steady state inhomogeneous flow in metallic glasses},
+  author  = {Spaepen, F.},
+  journal = {Acta Metallurgica},
+  volume  = {25},
+  number  = {4},
+  pages   = {407--415},
+  year    = {1977},
+  doi     = {10.1016/0001-6160(77)90232-2}
+}
+
+@article{Linke2010,
+  title   = {High Heat Flux Performance of Plasma Facing Materials and Components under Service Conditions in Future Fusion Reactors},
+  author  = {Linke, Jochen},
+  journal = {Fusion Science and Technology},
+  volume  = {57},
+  number  = {3},
+  pages   = {293--302},
+  year    = {2010},
+  doi     = {10.13182/FST10-A9420}
+  }
+
+@article{Lewandowski2005,
+  title   = {Intrinsic plasticity or brittleness of metallic glasses},
+  author  = {Lewandowski, J. J. and Wang, W. H. and Greer, A. L.},
+  journal = {Philosophical Magazine Letters},
+  volume  = {85},
+  number  = {2},
+  pages   = {77--87},
+  year    = {2005},
+  doi     = {10.1080/09500830500080474}
+}
+
+@article{Pugh1954,
+  title   = {{XCII}. Relations between the elastic moduli and the plastic properties of polycrystalline pure metals},
+  author  = {Pugh, S. F.},
+  journal = {The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science},
+  volume  = {45},
+  number  = {367},
+  pages   = {823--843},
+  year    = {1954},
+  doi     = {10.1080/14786440808520496}
+}

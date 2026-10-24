@@ -1,0 +1,52 @@
+\begin{table*}[t]
+\centering
+\small
+\caption{\label{tab:mathematical_symbols}Master index of mathematical symbols, physical definitions, units, and foundational value sources across the continuum-thermodynamic framework.}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l p{6.8cm} l p{6.2cm}}
+\toprule
+\textbf{Symbol} & \textbf{Physical Definition / Meaning} & \textbf{SI / Natural Units} & \textbf{Underlying Origin / Value Source} \\
+\midrule
+\multicolumn{4}{l}{\textbf{I. Fundamental Physical Constants}} \\
+$e$ & Elementary electric charge & $\text{C}$ & $1.602176634 \times 10^{-19}\text{ C}$ (CODATA / SI standard) \\
+$\varepsilon_0$ & Vacuum permittivity & $\text{F}\cdot\text{m}^{-1}$ & $8.8541878128 \times 10^{-12}\text{ F/m}$ (Exact SI electrostatics) \\
+$N_A$ & Avogadro constant & $\text{mol}^{-1}$ & $6.02214076 \times 10^{23}\text{ mol}^{-1}$ (SI standard definition) \\
+$R$ & Universal molar gas constant & $\text{J}\cdot\text{mol}^{-1}\cdot\text{K}^{-1}$ & $8.314462618\text{ J/(mol}\cdot\text{K)}$ ($R = k_B N_A$) \\
+$k_B$ & Boltzmann constant & $\text{J}\cdot\text{K}^{-1}$ & $1.380649 \times 10^{-23}\text{ J/K}$ (CODATA / SI standard) \\
+\midrule
+\multicolumn{4}{l}{\textbf{II. Compositional, Atomic, and First-Principles State Variables}} \\
+$i, j$ & Chemical species indices & Dimensionless & Permutations across $N$-component alloy constituents \\
+$x_i$ & Atomic mole fraction of element $i$ & Dimensionless & Alloy stoichiometry ($\sum_{i=1}^N x_i = 1$) \\
+$r_i$ & Wigner--Seitz / metallic radius of element $i$ & $\text{pm}$ (or $\text{m}$) & Empirical coordination-12 metallic radii database \\
+$\bar{r}$ & Mean concentration-weighted atomic radius & $\text{pm}$ (or $\text{m}$) & $\bar{r} = \sum_{i=1}^N x_i r_i$ \\
+$Z_{\text{eff},i}$ & Effective nuclear core valence charge & Dimensionless & Semi-empirical valence tables / screening literature \\
+$\bar{Z}_{\text{eff}}$ & Mean concentration-weighted valence charge & Dimensionless & $\bar{Z}_{\text{eff}} = \sum_{i=1}^N x_i Z_{\text{eff},i}$ \\
+$V_i$ & Equilibrium Wigner--Seitz atomic volume & $\text{m}^3$ & $V_i = \frac{4}{3}\pi r_i^3$ \\
+$V_{m,i}, V_m$ & Elemental and composite molar volumes & $\text{m}^3\cdot\text{mol}^{-1}$ & $V_m = \sum_{i=1}^N x_i V_{m,i} = \sum_{i=1}^N x_i V_i N_A$ \\
+\midrule
+\multicolumn{4}{l}{\textbf{III. Electrostatic Affinities and Rose UBER Derived Moduli}} \\
+$f_{\text{screen}}$ & Conduction electron screening factor & Dimensionless & $0.145$ (Thomas--Fermi electron sea attenuation) \\
+$\mathcal{A}_i$ & Screened nuclear ion affinity of element $i$ & $\text{eV}$ (or $\text{J}$) & $\mathcal{A}_i = [Z_{\text{eff},i} e^2 / (4\pi \varepsilon_0 r_i)] \cdot f_{\text{screen}}$ \\
+$\bar{\mathcal{A}}$ & Concentration-weighted mean ion affinity & $\text{eV}$ & $\bar{\mathcal{A}} = \sum_{i=1}^N x_i \mathcal{A}_i$ \\
+$\alpha_i$ ($\alpha_{\text{rose}}$) & Characteristic screening length ratio & Dimensionless & $\alpha_i = l_i / r_i \approx 0.21\text{--}0.27$ (Rose UBER scaling) \\
+$\nu_{0,i}$ & Intrinsic elemental Poisson's ratio & Dimensionless & Polycrystalline acoustic/ultrasonic literature \\
+$K_i^{\text{der}}$ & First-principles Rose UBER bulk modulus & $\text{GPa}$ & $K_i^{\text{der}} = \mathcal{A}_i / (12\pi \alpha_i^2 r_i^3) = V_i (\partial^2 U_i / \partial V^2)_{r_i}$ \\
+$G_i^{\text{der}}$ & Cauchy--Poisson derived shear modulus & $\text{GPa}$ & $G_i^{\text{der}} = K_i^{\text{der}} \cdot [3(1 - 2\nu_{0,i})] / [2(1 + \nu_{0,i})]$ \\
+\midrule
+\multicolumn{4}{l}{\textbf{IV. Continuum Homogenization and Topological Mismatch Descriptors}} \\
+$K_{\text{VRH}}, G_{\text{VRH}}$ & Voigt--Reuss--Hill composite moduli & $\text{GPa}$ & $M_{\text{VRH}} = \frac{1}{2}\left[\sum x_i M_i + \left(\sum x_i / M_i\right)^{-1}\right]$ \\
+$\nu$ & Composite alloy Poisson's ratio & Dimensionless & $\nu = (3K_{\text{VRH}} - 2G_{\text{VRH}}) / [2(3K_{\text{VRH}} + G_{\text{VRH}})]$ \\
+$\delta$ & Egami atomic size polydispersity & $\%$ & $\delta = \sqrt{\sum_{i=1}^N x_i (1 - r_i/\bar{r})^2} \times 100\%$ \\
+$\Phi_{\text{mismatch}}$ & Topological-electronic mismatch potential & Dimensionless & $\Phi = \alpha \sum x_i x_j (\Delta r/\bar{r})^2 + \beta \sum x_i x_j (\Delta Z/\bar{Z})^2$ \\
+$\alpha, \beta$ & Mismatch coupling coefficients & Dimensionless & $\alpha = 0.000$, $\beta = 0.384$ (L-BFGS-B BMG calibration) \\
+\midrule
+\multicolumn{4}{l}{\textbf{V. Thermodynamic and Kinetic Glass-Forming Parameters}} \\
+$\Delta H_{ij}^{\text{chem}}$ & Binary Miedema pairwise mixing enthalpy & $\text{kJ}\cdot\text{mol}^{-1}$ & Macroscopic atom model (Takeuchi \& Inoue tables) \\
+$\Delta H_{\text{mix}}$ & Macroscopic alloy chemical mixing enthalpy & $\text{kJ}\cdot\text{mol}^{-1}$ & $\Delta H_{\text{mix}} = \sum_{i < j} 4 \Delta H_{ij}^{\text{chem}} x_i x_j$ \\
+$H_{\text{ref}}$ & Enthalpic normalization energy scale & $\text{kJ}\cdot\text{mol}^{-1}$ & $250.0\text{ kJ/mol}$ (Intermetallic cohesive ceiling) \\
+$C_{\text{csm}}$ & Cooperative Shear Model scaling constant & Dimensionless & $0.01135$ ($C_{\text{csm}} = [(8/\pi^2)\gamma_c^2] / \ln(\tau_g/\tau_0)$) \\
+$\gamma_c$ & Universal critical shear strain threshold & Dimensionless & $0.036$ (Johnson--Samwer STZ activation limit) \\
+$\tau_g, \tau_0$ & Structural relaxation and attempt times & $\text{s}$ & $\tau_g \approx 10^2\text{ s}$ (DSC rate), $\tau_0 \approx 10^{-13}\text{ s}$ (Phonon period) \\
+$T_g$ ($T_{g,\text{cal}}$) & Glass transition temperature & $\text{K}$ & $T_g = C_{\text{csm}} \frac{G_{\text{VRH}} V_m}{R} (1 - \frac{\Delta H_{\text{mix}}}{H_{\text{ref}}} + \Phi_{\text{mismatch}})$ \\
+\bottomrule
+\end{tabular*}
+\end{table*}
